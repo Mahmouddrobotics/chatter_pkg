@@ -1,0 +1,10 @@
+# Ignore build files
+build/
+devel/
+install/
+
+# ROS log files
+*.log
+
+# Other files
+*~
