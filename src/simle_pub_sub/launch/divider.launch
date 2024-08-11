@@ -1,0 +1,8 @@
+<launch>
+
+    <node name="int_node" pkg="simle_pub_sub" type="int_node" />
+
+    <node name="divider_node" pkg="divider_pkg" type="divider" />
+
+ </launch>
+

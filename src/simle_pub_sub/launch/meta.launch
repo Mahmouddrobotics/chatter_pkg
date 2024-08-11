@@ -1,0 +1,7 @@
+<launch>
+
+<include file="$(find simle_pub_sub)/launch/chatter.launch" />
+<include file="$(find simle_pub_sub)/launch/divider.launch" />
+
+ </launch>
+

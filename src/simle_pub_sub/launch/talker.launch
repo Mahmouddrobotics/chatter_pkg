@@ -1,0 +1,6 @@
+<launch>
+
+    <node name="talker" pkg="simle_pub_sub" type="talker_node" />
+
+ </launch>
+
