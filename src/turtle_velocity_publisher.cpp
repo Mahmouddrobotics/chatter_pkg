@@ -17,8 +17,7 @@ int main(int argc, char **argv)
     while (ros::ok())
     {
         velocity_pub.publish(vel_msg);
-        ROS_INFO("Publishing linear velocity: %f", vel_msg.linear.x);
-
+        
         ros::spinOnce();
         loop_rate.sleep();
     }

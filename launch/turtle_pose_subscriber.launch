@@ -1,0 +1,9 @@
+<launch>
+    <!-- Start the turtlesim_node -->
+    <node pkg="turtlesim" type="turtlesim_node" name="sim"/>
+
+    <!-- Start the Pose Subscriber node -->
+    <node pkg="chatter_pkg" type="sub_turtle_pose" name="sub_turtle_pose" output="screen"/>
+
+     <node pkg="chatter_pkg" type="turtle_velosity_publisher" name="turtle_velosity_publisher" />
+</launch>

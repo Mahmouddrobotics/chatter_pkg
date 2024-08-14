@@ -213,3 +213,6 @@ add_executable(turtle_velocity_publisher src/turtle_velocity_publisher.cpp)
 target_link_libraries(turtle_velocity_publisher ${catkin_LIBRARIES})
 add_dependencies(turtle_velocity_publisher ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
+add_executable(sub_turtle_pose src/sub_turtle_pose.cpp)
+target_link_libraries(sub_turtle_pose ${catkin_LIBRARIES})
+add_dependencies(sub_turtle_pose ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
